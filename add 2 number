@@ -1,0 +1,13 @@
+# Get the first number from the user
+num1_str = input("Enter the first number: ")
+num1 = int(num1_str) # Convert the input string to an integer
+
+# Get the second number from the user
+num2_str = input("Enter the second number: ")
+num2 = int(num2_str) # Convert the input string to an integer
+
+# Calculate the sum
+sum_result = num1 + num2
+
+# Display the result
+print(f"The sum of {num1} and {num2} is: {sum_result}")
